@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1f7b82-8889-4c7c-a55f-609de52e067a" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../node.js/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node.js/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node.js/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node.js/.idea/node.js.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node.js/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node.js/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node.js/01..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node.js/02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../three.js/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../three.js/three.js笔记/threeYaoSu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="83" column="61" selection-start-line="83" selection-start-column="61" selection-end-line="83" selection-end-column="61" />
+            <state relative-caret-position="330">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -69,28 +61,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="css" type="b2602c69:ProjectViewProjectNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="css" type="b2602c69:ProjectViewProjectNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="css" type="b2602c69:ProjectViewProjectNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,11 +95,12 @@
       <updated>1552375162410</updated>
       <workItem from="1552375172964" duration="10215000" />
       <workItem from="1552440885919" duration="1453000" />
+      <workItem from="1552443694854" duration="196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11668000" />
+    <option name="totallyTimeSpent" value="11864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -158,9 +131,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/5c48ae32.png" />
-    <entry file="file://$PROJECT_DIR$/img/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
@@ -170,10 +140,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="83" column="61" selection-start-line="83" selection-start-column="61" selection-end-line="83" selection-end-column="61" />
+        <state relative-caret-position="330">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/1.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
