@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!--网页的语言-->
+    <meta name="keywords" content="扁平化设计，在线播放，播放器，H5"><!--网站的关键字-->
+    <meta name="description" content="用H5技术开发的扁平化视频播放器，性能好，跨平台兼容"><!--网站简介-->
+    <title>HTML5播放器</title>
+    <style>
+        body{
+            margin:0;
+            background: pink;
+        }
+        .player, .title, .myvideo, .controls, .videofile{
+            width:1130px;
+        }
+        .player{
+            height:730px;
+            background:#co2727;
+            margin:10px auto 0 auto;
+        }
+        .title{
+            line-height:48px;
+            background:#e7e8ea;
+            font-size: 26px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .myvideo{
+            height:636px;
+            background:#000;
+        }
+      .controls{
+          height:46px;
+          background:#e7e8ea;
+      }
+      .videofile{
+          height:636px;
+      }
+        .play, .volume, .openfile{
+            width:30px;
+            height:30px;
+            float:left;
+            margin:7px 9px 0 9px;
+            background-size: 30px 30px;
+            border-radius: 50%;
+        }
+        .play{
+            background-color:red;
+            background-image: url("img/1.png");
+        }
+        .volume{
+            background-color:#b6a405;
+            background-image: url("img/2.png");
+        }
+       .progress{
+           width:800px;
+           height:14px;
+           background-color:#0491d5;
+           float:left;
+           margin-top: 15px;
+       }
+       .openfile{
+           background-color:#02bb31;
+           background-image: url("img/2.png");
+       }
+    </style>
+</head>
+<body>
+    <div class="player">
+        <div class="title">不一样的你,让我想其不一样的夏天</div>
+        <div class="myvideo">
+            <video src="video/SEVENTEEN%20-%20Home%20接力舞蹈版.mp4" class="videofile"></video>
+        </div>
+        <div class="controls">
+            <div class="play"></div>
+            <div class="volume"></div>
+            <div class="progress"></div>
+            <div class="openfile"></div>
+        </div>
+    </div>
+    <script>
+        var playB = document.querySelector(".play");
+        var toggle = false; /*视频的状态，默认是暂停的*/
+        var videoFile = document.querySelector(".videofile");
+        playB.onclick = function(){/*点击播放按钮*/
+            if(toggle){/*当视频是播放的*/
+                videoFile.pause();/*视频是暂停的*/
+                playB.style.backgroundImage = 'url("img/1.png")';
+                toggle = false; /*视频是暂停的*/
+            }else{
+                videoFile.play();/*视频是播放的*/
+                playB.style.backgroundImage = 'url("img/pause.png")';
+                toggle = true;/*视频是播放的*/
+            }
+
+        }
+    </script>
+</body>
+</html>
